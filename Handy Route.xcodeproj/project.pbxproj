@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5771DB4D2C71E38E00294392 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771DB4C2C71E38E00294392 /* CalendarManager.swift */; };
+		5771DB502C71EE0E00294392 /* CalendarChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5771DB4F2C71EE0E00294392 /* CalendarChooserView.swift */; };
+		5771DB522C71F1CD00294392 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5771DB512C71F1CD00294392 /* PrivacyInfo.xcprivacy */; };
 		57E1EE592C6B9FF900294392 /* Handy_RouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1EE582C6B9FF900294392 /* Handy_RouteApp.swift */; };
 		57E1EE5B2C6B9FF900294392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1EE5A2C6B9FF900294392 /* ContentView.swift */; };
 		57E1EE5D2C6B9FFB00294392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1EE5C2C6B9FFB00294392 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5771DB4C2C71E38E00294392 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		5771DB4E2C71EB0600294392 /* Handy-Route-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Handy-Route-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5771DB4F2C71EE0E00294392 /* CalendarChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarChooserView.swift; sourceTree = "<group>"; };
+		5771DB512C71F1CD00294392 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		57E1EE552C6B9FF900294392 /* Handy Route.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Route.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E1EE582C6B9FF900294392 /* Handy_RouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handy_RouteApp.swift; sourceTree = "<group>"; };
 		57E1EE5A2C6B9FF900294392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +58,12 @@
 		57E1EE572C6B9FF900294392 /* Handy Route */ = {
 			isa = PBXGroup;
 			children = (
+				5771DB4E2C71EB0600294392 /* Handy-Route-Info.plist */,
+				5771DB512C71F1CD00294392 /* PrivacyInfo.xcprivacy */,
 				57E1EE582C6B9FF900294392 /* Handy_RouteApp.swift */,
 				57E1EE5A2C6B9FF900294392 /* ContentView.swift */,
+				5771DB4F2C71EE0E00294392 /* CalendarChooserView.swift */,
+				5771DB4C2C71E38E00294392 /* CalendarManager.swift */,
 				57E1EE5C2C6B9FFB00294392 /* Assets.xcassets */,
 				57E1EE5E2C6B9FFB00294392 /* Preview Content */,
 			);
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5771DB522C71F1CD00294392 /* PrivacyInfo.xcprivacy in Resources */,
 				57E1EE602C6B9FFB00294392 /* Preview Assets.xcassets in Resources */,
 				57E1EE5D2C6B9FFB00294392 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5771DB502C71EE0E00294392 /* CalendarChooserView.swift in Sources */,
+				5771DB4D2C71E38E00294392 /* CalendarManager.swift in Sources */,
 				57E1EE5B2C6B9FF900294392 /* ContentView.swift in Sources */,
 				57E1EE592C6B9FF900294392 /* Handy_RouteApp.swift in Sources */,
 			);
@@ -267,7 +281,7 @@
 		57E1EE642C6B9FFB00294392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconv4;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -275,6 +289,7 @@
 				DEVELOPMENT_TEAM = G7HRH2B3C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Handy-Route-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,7 +311,7 @@
 		57E1EE652C6B9FFB00294392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconv4;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -304,6 +319,7 @@
 				DEVELOPMENT_TEAM = G7HRH2B3C7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Handy-Route-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
